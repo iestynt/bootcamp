@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+
+<form action="http://wwww.bbc.co.uk">
+
+		<label for="first">First Name:</label>
+		<input id="first" name="first" type="text" placeholder="John" required>
+		<labe for="last">Last Name:</label>
+		<input id="last" name="last" type="text" placeholder="Smith" required>
+
+	<div>
+		<label for="male">Male</label>
+		<input name="gender" id="male" type="radio" value="male">
+		<label for="female">Female</label>
+		<input name="gender" id="female" type="radio" value="female">
+		<label for="other">Other</label>
+		<input name="gender" id="other" type="radio" value="other">
+	</div>
+
+	<div>
+		<label for="username">Email:</label>
+		<input id="username" name="email" type="email" placeholder="username" required>
+		<label for="password">Password:</label>
+		<input id="password" name="password" type="password" placeholder="password" pattern=".{5,10}"" required title="5 to 10 characters">
+	
+	</div>
+
+
+	<div>
+		<label>
+		Birthday
+		<select name="dob_month">
+			<option value="jan">Jan</option>
+			<option value="feb">feb</option>
+			<option value="march">march</option>
+		</select>
+		<select name="dob_day">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+		<select name="dob_year">
+			<option value="2000">2000</option>
+			<option value="2001">2001</option>
+			<option value="2002">2002</option>
+		</select>
+		</label>
+	</div>
+	<label for="agree">I aggree to terms and conditions:</label>
+		<input id="agree" name="terms" type="checkbox" required>
+
+	<input type="submit">
+</form>
+
+
+<!-- 	<form>
+
+
+		<label for="first">First Name</label>
+		<input name="first" id="dogs" type="input" value="DOGS">
+		
+		<label for="cats">Cats:</label>
+		<input name="petChoice" id="cats" type="radio" value="CATS">
+
+<p>Pick your current mood</p>
+
+	<select name="mood">
+		<option value="happy">:)</option>
+		<option value="sad">:(</option>
+		<option value="meh">:|</option>
+	</select>
+
+	<textarea name="paragraph" rows="10" cols="50"></textarea>
+
+		<button>Go!</button>
+	</form>
+
+ --></body>
+</html>
+
+
